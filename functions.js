@@ -18,20 +18,24 @@ funFunction();
 
 // -------- Challenge 2 -------- //
 // put this code block into a function, add a return statement, and call the function
-
-let anotherGreatPet = 'bunny';
-let anotherPetName = 'opal';
-let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
-// return the anotherPetString here
-
+function pet(){
+    let anotherGreatPet = 'bunny';
+    let anotherPetName = 'opal';
+    let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
+    // return the anotherPetString here
+    return anotherPetString;
+}
 // call your function here
-
+pet();
 
 
 // -------- Challenge 3 -------- //
 // is there another way to write this function so we can use one function for different pets?
+function allPets(pet, name){
+    let petString = 'The best pet is a ' + pet + ' named ' + name;
+    return petString;
+}
 
-
-
+allPets(dog, Gambino);
 
 
