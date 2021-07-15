@@ -20,19 +20,31 @@ bestPet()
 // -------- Challenge 2 -------- //
 // put this code block into a function, add a return statement, and call the function
 
-let anotherGreatPet = 'bunny';
-let anotherPetName = 'opal';
-let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
+
+
 // return the anotherPetString here
 
-// call your function here
+function bestPet2(){
+  let anotherGreatPet = 'bunny';
+  let anotherPetName = 'opal';
+  let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
+  return anotherPetString;
+}
 
+// call your function here
+bestPet2();
 
 
 // -------- Challenge 3 -------- //
 // is there another way to write this function so we can use one function for different pets?
 
-
+function bestPets(){
+  let a = petType
+  let b = petName
+  let combinedPetString = 'The best pet is a ' + a + ' named ' + b;
+  return combinedPetString;
+}
+bestPets (a, b)
 
 
 
