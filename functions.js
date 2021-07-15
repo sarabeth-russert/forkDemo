@@ -38,13 +38,11 @@ bestPet2();
 // -------- Challenge 3 -------- //
 // is there another way to write this function so we can use one function for different pets?
 
-function bestPets(){
-  let a = petType
-  let b = petName
+function bestPets(a, b){
   let combinedPetString = 'The best pet is a ' + a + ' named ' + b;
   return combinedPetString;
 }
-bestPets (a, b)
+bestPets('dog', 'indiana');
 
 
 
