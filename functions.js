@@ -20,13 +20,15 @@ bestPet()
 // -------- Challenge 2 -------- //
 // put this code block into a function, add a return statement, and call the function
 
+function anotherGreatPet(){
 let anotherGreatPet = 'bunny';
 let anotherPetName = 'opal';
 let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
 // return the anotherPetString here
-
+return anotherGreatPetString;
+}
 // call your function here
-
+anotherGreatPet()
 
 
 // -------- Challenge 3 -------- //
