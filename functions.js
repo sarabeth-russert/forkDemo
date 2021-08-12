@@ -21,15 +21,15 @@ myBestPet();
 
 
 function anotherGreatPet(){
-let anotherGreatPet = 'bunny';
-let anotherPetName = 'opal';
-let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
+    let anotherGreatPet = 'bunny';
+    let anotherPetName = 'opal';
+    let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
 // return the anotherPetString here
 return anotherGreatPetString;
-}
+};
 
 
-anotherGreatPet()
+anotherGreatPet();
 
 
 // -------- Challenge 3 -------- //
@@ -41,7 +41,7 @@ let anotherPetName = 'opal';
 function greatPetB(anotherGreatPet, anotherPetName) {
   let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
   return anotherPetString;
-}
+};
 
 // return the anotherPetString here
 greatPetB();
