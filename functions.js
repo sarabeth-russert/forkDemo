@@ -45,3 +45,16 @@ function greatPetB(anotherGreatPet, anotherPetName) {
 
 // return the anotherPetString here
 greatPetB();
+
+function isPrime(num1){
+  let prime = true;
+
+  for(var i = 2; i < num1; i++){
+    if(num % i === o)
+    {
+      prime = false;
+    }
+  }
+}
+
+Console.log(isPrime());
