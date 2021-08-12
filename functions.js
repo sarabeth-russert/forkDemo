@@ -43,5 +43,5 @@ function greatPetB(anotherGreatPet, anotherPetName) {
   return anotherPetString;
 }
 
-// return the anotherPetString here
+// return the anotherPetString here.
 greatPetB();
