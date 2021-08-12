@@ -45,3 +45,18 @@ function greatPetB(anotherGreatPet, anotherPetName) {
 
 // return the anotherPetString here
 greatPetB();
+
+// -------- Challenge 4 -------- //
+// is there another way to write this function so we can use one function for different foods?
+
+function isPrime(num1){
+  let prime = true
+
+  for(var i = 2; i < num1; i++){
+    if(num1 % i === 0){
+      return false;
+    }
+  }
+return true;
+}
+console.log(isPrime(5));
