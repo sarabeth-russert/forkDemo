@@ -1,10 +1,11 @@
 'use strict';
 
+// this is an edit I am marking so my branch will be different so i can acp back to my main
 // -------- Challenge 1 -------- //
 // put this code block into a function, add a return statement, and call the function
 function myBestPet(){
-  let bestPet = 'dog';
-  let petName = 'indiana';
+  let bestPet = 'cat';
+  let petName = 'frank';
   let petString = 'The best pet is a ' + bestPet + ' named ' + petName;
   return petString;
 }
@@ -21,8 +22,8 @@ myBestPet();
 
 
 function anotherGreatPet(){
-let anotherGreatPet = 'bunny';
-let anotherPetName = 'opal';
+let anotherGreatPet = 'bird';
+let anotherPetName = 'harry';
 let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
 // return the anotherPetString here
 return anotherGreatPetString;
@@ -35,8 +36,8 @@ anotherGreatPet()
 // -------- Challenge 3 -------- //
 // is there another way to write this function so we can use one function for different pets?
 
-let anotherGreatPet = 'bunny';
-let anotherPetName = 'opal';
+let anotherGreatPet = 'cow';
+let anotherPetName = 'henry';
 
 function greatPetB(anotherGreatPet, anotherPetName) {
   let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
