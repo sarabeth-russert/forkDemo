@@ -45,3 +45,5 @@ function greatPetB(anotherGreatPet, anotherPetName) {
 
 // return the anotherPetString here
 greatPetB();
+
+alert ('Steve is the best!');
