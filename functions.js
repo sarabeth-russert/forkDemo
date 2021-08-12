@@ -35,11 +35,12 @@ anotherGreatPet()
 
 let anotherGreatPet = 'bunny';
 let anotherPetName = 'opal';
+let petDescription = 'he is fluffy!'
 
-function greatPetB(anotherGreatPet, anotherPetName) {
-  let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
+function greatPetA(anotherGreatPet, anotherPetName, petDescription) {
+  let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName + ' and ' + petDescription;
   return anotherPetString;
 }
 
 // return the anotherPetString here
-greatPetB();
+greatPetA();
